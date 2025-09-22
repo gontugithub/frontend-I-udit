@@ -50,3 +50,20 @@ function updatePageMetadata(title, description) {
 		document.head.appendChild(metaDescription);
 	}
 }
+
+console.log('✅ main.js cargado correctamente');
+
+
+const title = document.getElementById('title');
+
+console.log(title)
+
+
+btn.addEventListener("click", changeTitle())
+
+function changeTitle(){
+	if (title){
+		title.textContent = "TEXTO CAMBIADO DESDE MAIN.JS";
+	}
+
+}
