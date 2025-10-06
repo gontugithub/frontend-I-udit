@@ -17,3 +17,32 @@
 	padding: 20px;
 }
 
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+header,
+footer {
+	background: #f0f0f0;
+	padding: 1rem;
+}
+
+nav a {
+	margin-right: 1rem;
+	text-decoration: none;
+	color: #0066cc;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
